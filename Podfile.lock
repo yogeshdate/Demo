@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Firebase/Core (4.4.0):
+    - FirebaseAnalytics (= 4.0.4)
+    - FirebaseCore (= 4.0.9)
+  - FirebaseAnalytics (4.0.4):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.9):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseInstanceID (2.0.5)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - JGProgressHUD (2.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - NKVPhonePicker (1.2.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - TPKeyboardAvoiding (1.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - Firebase/Core
+  - JGProgressHUD
+  - NKVPhonePicker (from `https://github.com/NikKovIos/NKVPhonePicker.git`)
+  - SDWebImage (~> 3.8)
+  - TPKeyboardAvoiding (= 1.3)
+
+EXTERNAL SOURCES:
+  NKVPhonePicker:
+    :git: https://github.com/NikKovIos/NKVPhonePicker.git
+
+CHECKOUT OPTIONS:
+  NKVPhonePicker:
+    :commit: b02cd3f85ee28d523f294d74cfbb7bf9dac6e778
+    :git: https://github.com/NikKovIos/NKVPhonePicker.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Firebase: 3e92884a63e8f76d107c43a67d2ab9071e1eda10
+  FirebaseAnalytics: 722b53c7b32bfc7806b06e0093a2f5180d4f2c5a
+  FirebaseCore: ebe73f64302705e693b1de9919a76edbdd17a19d
+  FirebaseInstanceID: f2b688c66b972f30d7fa9f5f9f91455454a03b47
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  JGProgressHUD: c402c0f41fc291ca7e33bba2f999118d9682dd9c
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  NKVPhonePicker: 2043a44706ac2578098246099d6d70edd18b1ad9
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  TPKeyboardAvoiding: a5138f318c06fb3e151f886e18ce4a72695d9cbe
+
+PODFILE CHECKSUM: 8f48c89fa48284d45f487b0c77ea8ef2fde59399
+
+COCOAPODS: 1.4.0
