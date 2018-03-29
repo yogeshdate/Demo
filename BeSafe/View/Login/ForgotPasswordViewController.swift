@@ -3,7 +3,7 @@
 //  BeSafe
 //
 //  Created by Yogesh Date on 28/02/18.
-//  Copyright © 2018 Yogesh date. All rights reserved.
+//  Copyright © 2018 Yogesh date. All rights reserved. hay.
 //
 
 import UIKit
